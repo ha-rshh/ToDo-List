@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Outfit:wght@200;400&display=swap"
+        rel="stylesheet">
+    <title>ToDo list</title>
+</head>
+
+<body>
+    <header>
+        <div class="to-do">ToDo List</div>
+    </header>
+    <main>
+        <div class="add-items">
+            Add Items
+        </div>
+        <div class="inputs">
+          <form action="submit" method="get">  <input type="text" class="new-task" placeholder="Add your new todo" required>
+            <input type="submit" value="Submit" class="submit"></form>
+        </div>
+        <hr class="line">
+        <div class="tasks">
+            Tasks
+        </div>
+        <table class="task-table">
+            <tr>
+                <td class="box">HTML
+                    <input type="button" value="Delete" class="delete">
+                    <input type="button" value="Edit" class="edit">
+                </td>
+            </tr>
+            <tr>
+                <td class="box">CSS
+                    <input type="button" value="Delete" class="delete">
+                    <input type="button" value="Edit" class="edit">
+                </td>
+            </tr>
+            <tr>
+                <td class="box">JS
+                    <input type="button" value="Delete" class="delete">
+                    <input type="button" value="Edit" class="edit">
+                </td>
+            </tr>
+            <tr>
+                <td class="box">Practice
+                    <input type="button" value="Delete" class="delete">
+                    <input type="button" value="Edit" class="edit">
+                </td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+
+</html>
